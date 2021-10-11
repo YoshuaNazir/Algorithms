@@ -28,4 +28,4 @@ class MyTestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-#Notes: The functions above do not the desired tasks yet and need to be revised, this excercise is still incomplete.
+#Notes: The functions above do not complete the desired tasks yet and need to be revised, this excercise is still incomplete.

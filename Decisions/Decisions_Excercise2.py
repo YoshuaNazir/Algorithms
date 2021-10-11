@@ -17,4 +17,4 @@ def number_is_negative(n):  # This function is to determine wether or not is neg
         return 1
     else:
         0
-#Notes: The functions above do not the desired tasks yet and need to be revised, this excercise is still incomplete.
+#Notes: The functions above do not complete the desired tasks yet and need to be revised, this excercise is still incomplete.
