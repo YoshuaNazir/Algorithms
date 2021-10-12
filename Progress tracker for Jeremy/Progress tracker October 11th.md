@@ -5,7 +5,7 @@ For today I have been working on the following:
 
 * Reading the official Unittest manual from python to create tests.
 * Reading about classes and inheritance on webschool to reinforce mu capacity to create successfull test. 
-* Plan to continue reading the 8th chapter of Chapter 8 of > La logica de la programacion. 
+* Went back and read Chapter  of > La logica de la programacion. 
 * Created a successful test for Decision excercise 1. 
 
 Issues:
