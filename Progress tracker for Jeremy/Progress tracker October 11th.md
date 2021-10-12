@@ -1,4 +1,5 @@
-#Progress tracker October 11th 
+
+##Progress tracker October 11th 
 
 For today I have been working on the following: 
 
