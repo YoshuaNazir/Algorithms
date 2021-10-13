@@ -1,11 +1,11 @@
 
-##Progress tracker October 11th 
+## Progress tracker October 11th 
 
 For today I have been working on the following: 
 
 * Reading the official Unittest manual from python to create tests.
 * Reading about classes and inheritance on webschool to reinforce mu capacity to create successfull test. 
-* Went back and read Chapter  of > La logica de la programacion. 
+* Went back and read Chapter 7 of  > La logica de la programacion. 
 * Created a successful test for Decision excercise 1. 
 
 Issues:
