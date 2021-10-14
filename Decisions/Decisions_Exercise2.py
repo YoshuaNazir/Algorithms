@@ -2,4 +2,7 @@
 
 def wholethreedigits(n):
     if n >= 100 and n <= 999:
-        print("This number has 3 digits")
+        return True
+
+    elif n < 100 or n > 999:
+        raise ValueError("The number does not have 3 digits")
