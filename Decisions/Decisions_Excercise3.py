@@ -1,14 +1,14 @@
 # 3.  Leer un número entero y determinar si es negativo.
 
-def whole_number(n):
+def iswholenumber(n):
     if type(n) == int:
-        print("This is a whole number")
-    else:
-        print("This is not a whole number")
+        return True
+    elif type(n) != int
+        raise ValueError("This is not a whole number")
 
 
-def negative_number(n):
+def isnegative(n):
     if n < 0:
-        print("This is a negative number")
-    else:
-        print("This is not a negative number")
+        return True
+    elif n >= 0:
+        raise ValueError("Please insert a negative number")
