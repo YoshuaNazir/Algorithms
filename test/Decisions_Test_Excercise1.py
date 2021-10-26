@@ -23,9 +23,12 @@ class Value4(unittest.TestCase):
         self.assertEqual(self.decisions.is_whole_number(999), True)
         self.assertNotEqual(self.decisions.is_whole_number(0.23), True)
 
-    def tearDown(self):
-        del(self.decisions)
-
+    def test_whole_three_digits(self):
+        self.assertRaises(ValueError, self.decisions.whole_three_digits, 99)
+        self.assertRaises(ValueError, self.decisions.whole_three_digits, 1000)
+        self.assertRaises(ValueError, self.decisions.whole_three_digits, 8888)
+        self.assertRaises(ValueError, self.decisions.whole_three_digits, 6)
+        self.assertRaises(ValueError, self.decisions.whole_three_digits, 77)
 
 if __name__ == '__main__':
     unittest.main()
