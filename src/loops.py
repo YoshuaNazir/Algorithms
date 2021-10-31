@@ -5,7 +5,7 @@ class Loops:
             print(i)
 
 """Showing pairs from 1 to the introduced number"""
-    def show_pairs(n):
+    def show_pairs(self, n):
         for i in range(1, n):
             if i % 2 == 0:
                 print (i)
