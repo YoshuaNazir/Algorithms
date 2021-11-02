@@ -17,7 +17,7 @@ class Loops:
             if n % i == 0:
                 print(i)
 
-
+    # Showing the whole numbers between the introduced number
     def show_whole_numbers(self,n1,n2):
         if n1 < n2:
             First = n1
@@ -28,3 +28,13 @@ class Loops:
         for i in range(First, Second):
             if i > 0:
             print(i)
+    def Show_range_ends_4(self, n1, n2):
+        if n1 < n2:
+            First = n1
+            Second = n2
+        if n2 < n1:
+            First = n2
+            Second = n1
+        for i in range(First,Second):
+            if i % 10 == 4:
+                print(i)
