@@ -4,19 +4,12 @@ from src.loops import Loops
 
 class MyTestCase(unittest.TestCase):
 
-    def setup(self):
-        self.loops = Loops()
 
-    def show_numbers(self):
-        for i in range(1, 10):
-            with self.subTest(self):
-                self.assertEqual(i, i)
 
-    def show_pairs(self):
-        for i in range(1, 10):
-            with self.show_pairs(self):
-                self.assertTrue(i % 2, 0)
-
+    def test_show_pairs(self):
+        loops = Loops()
+        self.assertListEqual(loops.show_pairs([1, 2, 3, 4, 5, 6]), [2, 4, 6], "Show pairs did not return the expected output")
+        self.assertRaises(ValueError, loops.show_pairs, None)
 
 
 
