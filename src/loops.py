@@ -28,6 +28,7 @@ class Loops:
         for i in range(First, Second):
             if i > 0:
             print(i)
+      """Shows all the numbers from the range that ends in 4"""
     def Show_range_ends_4(self, n1, n2):
         if n1 < n2:
             First = n1
